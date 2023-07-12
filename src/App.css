@@ -53,6 +53,10 @@ img.logo {
   padding: 30px 0;
 }
 
+.content-body h1 {
+  margin-bottom: 1em;
+}
+
 .avatar img {
   width: 100%;
 }
@@ -119,6 +123,56 @@ img.logo {
 .linkedin-icon:hover,
 .github-icon:hover {
   color: #fff;
+}
+
+.project-item {
+  border: 1px solid #485159;
+  border-radius: 12px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px;
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0;
+  background-color: #32383d;
+  cursor: pointer;
+}
+
+.project-item:hover {
+  background-color: #2d3034;
+}
+
+.project-image {
+  width: 156px;
+  height: 118px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #9ba7ad;
+}
+
+.project-image img {
+  width: 100%;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-out;
+}
+
+.project-item:hover .project-image img {
+  transform: translate3d(0px, 0px, 0px) scale3d(1.1, 1.1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
+
+.project-name {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+.project-info {
+  padding-left: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
