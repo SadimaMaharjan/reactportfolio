@@ -6,7 +6,7 @@ export default function About() {
       <h1>About Me</h1>
       <div class="row">
         <div class="col-md-6 avatar">
-          <img src={require("../../assets/avatar.png")} />
+          <img src={require("../../assets/avatar.png")} alt="my avatar" />
         </div>
         <div class="col-md-6  description">
           <h2 class="name title">Sadima Maharjan</h2>

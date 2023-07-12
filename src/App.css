@@ -103,6 +103,22 @@ img.logo {
   background-color: #32383d;
   border-radius: 12px;
   padding: 12px 36px;
+  text-align: center;
+}
+
+.linkedin,
+.github {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+}
+.linkedin-icon,
+.github-icon {
+  color: #9ba7ad;
+}
+.linkedin-icon:hover,
+.github-icon:hover {
+  color: #fff;
 }
 
 @media (prefers-reduced-motion: no-preference) {

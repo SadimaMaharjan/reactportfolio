@@ -9,7 +9,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <img
           class="logo img-fluid"
           src={require("../assets/SM.png")}
-          alt-text="logo for my portfolio"
+          alt="logo for my portfolio"
         />
       </a>
       <button
