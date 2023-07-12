@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Portfolio() {
   return (
-    <div>
+    <div class="content-body">
       <h1>Portfolio Page</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

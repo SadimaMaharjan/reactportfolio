@@ -49,6 +49,62 @@ img.logo {
   margin-left: 40px;
 }
 
+.content-body {
+  padding: 30px 0;
+}
+
+.avatar img {
+  width: 100%;
+}
+
+.name,
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.position {
+  color: #9ba7ad;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.availability {
+  letter-spacing: 2px;
+  font-size: 20px;
+  line-height: 1.5em;
+  position: relative;
+  padding-left: 25px;
+}
+
+.availability::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #35f37e;
+  left: 0;
+  top: 10px;
+}
+
+.button-wrapper {
+  grid-column-gap: 18px;
+  display: flex;
+}
+
+.col-md-2.badge.text-bg-light.skill-tab {
+  padding: 14px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.footer {
+  background-color: #32383d;
+  border-radius: 12px;
+  padding: 12px 36px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
