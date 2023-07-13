@@ -175,17 +175,28 @@ img.logo {
   padding-left: 20px;
 }
 
+.project-top,
+.project-bottom {
+  margin-bottom: 10px;
+}
+
 .download h5 {
   margin: 0 0 40px 0;
 }
 
-.download a {
+.download a,
+.live {
   color: #9ba7ad;
   text-decoration: none;
 }
 
-.download a:hover {
+.download a:hover,
+.live:hover {
   color: #fff;
+}
+
+.live {
+  margin-right: 10px;
 }
 
 .contact-form label {

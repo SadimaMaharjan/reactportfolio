@@ -11,11 +11,6 @@ export default function Project({
   return (
     <div class="col-md-6 ">
       <a class="project-item">
-        {/* <img src={imageUrl} alt={title} />
-          <p>{description}</p>
-          <a href={liveUrl} target="_blank" rel="noopener noreferrer">
-            View Live
-          </a> */}
         <div class="project-image col-md-4">
           <img src={imageUrl} alt={title} />
         </div>
@@ -26,7 +21,12 @@ export default function Project({
           <div class="project-bottom">
             <div class="project-desc">{description}</div>
           </div>
-          <a href={liveUrl} target="_blank" rel="noopener noreferrer">
+          <a
+            href={liveUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="live"
+          >
             Live
           </a>
           <a href={githubUrl} target="_blank" rel="noopener noreferrer">
