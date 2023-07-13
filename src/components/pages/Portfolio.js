@@ -5,152 +5,61 @@ export default function Portfolio() {
   const projects = [
     {
       title: "TextNCode Editor",
-      imageUrl: "https://example.com/project1-image.jpg",
-      liveUrl: "https://example.com/project1-live",
-      githubUrl: "https://github.com/example/project1",
+      description: "ExpressJS, Webpack, IndexedDB API",
+      imageUrl: "../../assets/textncode-editor.png",
+      liveUrl: "https://textncodeditor-db46f522e61e.herokuapp.com/",
+      githubUrl: "https://github.com/SadimaMaharjan/textNcode-editor",
     },
     {
-      title: "Project 2",
-      description: "Description of Project 2",
-      imageUrl: "https://example.com/project2-image.jpg",
-      liveUrl: "https://example.com/project2-live",
-      githubUrl: "https://github.com/example/project2",
+      title: "BlogWithMe",
+      description: "ExpressJS, MySQL2, Sequelize",
+      imageUrl: "../../assets/Blogwithme.png",
+      liveUrl: "https://github.com/SadimaMaharjan/blogwithme",
+      githubUrl: "https://github.com/SadimaMaharjan/blogwithme",
     },
-    // Add more projects as needed
+    {
+      title: "BidWise",
+      description: "ExpressJS, MySQL, Sequelize, Google API, NodeJS",
+      imageUrl: "../../assets/BidWise.png",
+      liveUrl: "https://github.com/SadimaMaharjan/BidWise",
+      githubUrl: "https://github.com/SadimaMaharjan/BidWise",
+    },
+    {
+      title: "Note Me Down",
+      description: "ExpressJS",
+      imageUrl: "../../assets/notetaker.png",
+      liveUrl: "https://github.com/SadimaMaharjan/note-me-down",
+      githubUrl: "https://github.com/SadimaMaharjan/note-me-down",
+    },
+    {
+      title: "5-Day Weather Forecast",
+      description: "HTML, CSS, JavaScript, OpenWeather API",
+      imageUrl: "../../assets/Weatherdashboard.png",
+      liveUrl: "https://sadimamaharjan.github.io/5-day-weatherforcast/",
+      githubUrl: "https://github.com/SadimaMaharjan/5-day-weatherforcast",
+    },
+    {
+      title: "Quiz",
+      description: "HTML, CSS, JavaScript",
+      imageUrl: "../../assets/quiz.png",
+      liveUrl: "https://sadimamaharjan.github.io/javascript-quiz/",
+      githubUrl: "https://github.com/SadimaMaharjan/javascript-quiz",
+    },
   ];
   return (
     <div class="content-body">
       <h1>My Portfolio</h1>
       <div class="row">
-        <div class="col-md-6 ">
-          <a
-            class="project-item"
-            href="https://textncodeditor-db46f522e61e.herokuapp.com/"
-          >
-            <div class="project-image col-md-4">
-              <img
-                src={require("../../assets/textncode-editor.png")}
-                alt="text and code editor"
-              />
-            </div>
-            <div class="project-info col-md-8">
-              <div class="project-top">
-                <h3 class="project-name">TextNCode Editor</h3>
-              </div>
-              <div class="project-bottom">
-                <div class="project-desc">
-                  ExpressJS, Webpack, IndexedDB API
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a
-            class="project-item"
-            href="https://github.com/SadimaMaharjan/blogwithme"
-          >
-            <div class="project-image col-md-4">
-              <img
-                src={require("../../assets/Blogwithme.png")}
-                alt="social media blog"
-              />
-            </div>
-            <div class="project-info col-md-8">
-              <div class="project-top">
-                <h3 class="project-name">BlogWithMe</h3>
-              </div>
-              <div class="project-bottom">
-                <div class="project-desc">ExpressJS, MySQL2, Sequelize</div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a
-            class="project-item"
-            href="https://github.com/SadimaMaharjan/BidWise"
-          >
-            <div class="project-image col-md-4">
-              <img
-                src={require("../../assets/BidWise.png")}
-                alt="auction website"
-              />
-            </div>
-            <div class="project-info col-md-8">
-              <div class="project-top">
-                <h3 class="project-name">BidWise</h3>
-              </div>
-              <div class="project-bottom">
-                <div class="project-desc">
-                  ExpressJS, MySQL, Sequelize, Google API, NodeJS
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a
-            class="project-item"
-            href="https://github.com/SadimaMaharjan/note-me-down"
-          >
-            <div class="project-image col-md-4">
-              <img
-                src={require("../../assets/notetaker.png")}
-                alt="notetaker app"
-              />
-            </div>
-            <div class="project-info col-md-8">
-              <div class="project-top">
-                <h3 class="project-name">Note Me Down</h3>
-              </div>
-              <div class="project-bottom">
-                <div class="project-desc">ExpressJS</div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a
-            class="project-item"
-            href="https://sadimamaharjan.github.io/5-day-weatherforcast/"
-          >
-            <div class="project-image col-md-4">
-              <img
-                src={require("../../assets/Weatherdashboard.png")}
-                alt="weather dashboard app"
-              />
-            </div>
-            <div class="project-info col-md-8">
-              <div class="project-top">
-                <h3 class="project-name">5-Day Weather Forecast</h3>
-              </div>
-              <div class="project-bottom">
-                <div class="project-desc">
-                  HTML, CSS, JavaScript, OpenWeather API
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a
-            class="project-item"
-            href="https://sadimamaharjan.github.io/javascript-quiz/"
-          >
-            <div class="project-image col-md-4">
-              <img src={require("../../assets/quiz.png")} alt="quiz app" />
-            </div>
-            <div class="project-info col-md-8">
-              <div class="project-top">
-                <h3 class="project-name">Quiz</h3>
-              </div>
-              <div class="project-bottom">
-                <div class="project-desc">HTML, CSS, JavaScript</div>
-              </div>
-            </div>
-          </a>
-        </div>
+        {projects.map((project, index) => (
+          <Project
+            key={index}
+            title={project.title}
+            description={project.description}
+            imageUrl={project.imageUrl}
+            liveUrl={project.liveUrl}
+            githubUrl={project.githubUrl}
+          />
+        ))}
       </div>
     </div>
   );
