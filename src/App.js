@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import Container from "./components/Container";
+import Header from "./components/Header";
 
-const App = () => <Container />;
+const App = () => <Header />;
 
 export default App;

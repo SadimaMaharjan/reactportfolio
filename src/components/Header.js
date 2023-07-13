@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import NavTabs from "./NavTabs";
+import NavTabs from "./Navigation";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Footer from "./Footer";
 
-export default function Container() {
+export default function Header() {
   const [currentPage, setCurrentPage] = useState("About");
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.

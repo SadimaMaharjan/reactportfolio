@@ -175,6 +175,19 @@ img.logo {
   padding-left: 20px;
 }
 
+.download h5 {
+  margin: 0 0 40px 0;
+}
+
+.download a {
+  color: #9ba7ad;
+  text-decoration: none;
+}
+
+.download a:hover {
+  color: #fff;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
