@@ -1,4 +1,4 @@
-# Portfolio
+# reactPortfolio
 
 A portfolio created with ReactJS.
 
@@ -44,7 +44,10 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 The following screenshots show the web application's appearance and functionality:
 
+![Landing page](src/assets/screenshot1.png)
+![projects page](src/assets/screenshot2.png)
+
 ## Deployment
 
 The project is deployed using gh-pages in github. Below is the link for the deployed portfolio:
-[live site]()
+[live site](https://sadimamaharjan.github.io/reactportfolio/)
