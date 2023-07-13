@@ -23,6 +23,13 @@ a.navbar-brand.logo-link {
   text-decoration: underline;
 }
 
+.navbar-collapse {
+  display: block;
+  z-index: 999;
+  position: relative;
+  background: #32383d;
+}
+
 .App {
   text-align: center;
 }
