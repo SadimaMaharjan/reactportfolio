@@ -1,6 +1,23 @@
 import React from "react";
+import Project from "../Project";
 
 export default function Portfolio() {
+  const projects = [
+    {
+      title: "TextNCode Editor",
+      imageUrl: "https://example.com/project1-image.jpg",
+      liveUrl: "https://example.com/project1-live",
+      githubUrl: "https://github.com/example/project1",
+    },
+    {
+      title: "Project 2",
+      description: "Description of Project 2",
+      imageUrl: "https://example.com/project2-image.jpg",
+      liveUrl: "https://example.com/project2-live",
+      githubUrl: "https://github.com/example/project2",
+    },
+    // Add more projects as needed
+  ];
   return (
     <div class="content-body">
       <h1>My Portfolio</h1>

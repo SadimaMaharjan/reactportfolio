@@ -21,14 +21,6 @@ export default function About() {
             worked as a junior web-designer. Besides work, I love hiking,
             trekking and gardening.
           </p>
-          <div class="button-wrapper">
-            <button type="button" class="btn btn-light" href="#contact">
-              Get In Touch
-            </button>
-            <button type="button" class="btn btn-secondary">
-              Work
-            </button>
-          </div>
         </div>
       </div>
       <div class="row">
