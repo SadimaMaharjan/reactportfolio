@@ -21,14 +21,14 @@ export default function Project({
           <div class="project-bottom">
             <div class="project-desc">{description}</div>
           </div>
-          <a
+          {/* <a
             href={liveUrl}
             target="_blank"
             rel="noopener noreferrer"
             class="live"
           >
             Live
-          </a>
+          </a> */}
           <a href={githubUrl} target="_blank" rel="noopener noreferrer">
             <Github size={20} className="github-icon" />
           </a>
